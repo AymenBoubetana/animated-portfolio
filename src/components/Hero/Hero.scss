@@ -1,0 +1,91 @@
+.Hero{
+  height:calc(100vh - 100px);
+  overflow: hidden;
+  position: relative;
+  
+
+  .image{
+    height:100%;
+    position:absolute;
+    top:0;
+    right:0;
+    
+    img{
+      height: 100%;
+      
+    }
+  }
+  .wrapper{
+    max-width:1366px;
+    height:100%;
+    margin:auto;
+    .content{
+      width:50%;
+      height:100%;
+      display: flex;
+      flex-direction: column;
+      justify-content: center;
+      gap: 40px;
+      margin-left: 110px;
+
+    h2{
+      text-transform: uppercase;
+      font-weight: bold;
+      color: rgb(131,58,180);
+      letter-spacing: 10px;
+      font-size: 39px;
+    }
+    h4{
+      font-size: 44px;
+      color: white;
+    }
+    .buttons{
+      width:400px;
+      .b1{
+        border:1px solid black;
+        width:50%;
+        background-color: transparent;
+        padding:15px;
+        border-radius: 5px;
+        margin-right: 12px;
+        cursor: pointer;
+        color:black;
+        font-size: 16px;
+        font-weight: bold;
+      }
+      .b2{
+        border: none;
+        width:45%;
+        background-color: white;
+        padding:15px;
+        border-radius: 5px;
+        cursor: pointer;
+        font-size: 16px;
+        a{
+          text-decoration: none;
+          color:black;
+          font-weight: bold;
+        }
+        
+      }
+      .b1:hover,.b2:hover{
+        scale: 1.1;
+      }
+    }
+    img{
+      width:50px;
+    }
+  }
+}
+.slider{
+  position:absolute;
+  font-size: 50vh;
+  bottom:-50px;
+  white-space: nowrap;
+  color: #ffffff30;
+  z-index: -1;
+  width:50%;
+  font-weight: bold;
+}
+  
+}
